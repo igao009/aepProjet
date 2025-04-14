@@ -1,0 +1,43 @@
+header {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Usar flexbox para layout */
+    align-items: center; /* Alinhar itens verticalmente */
+    justify-content: space-between; /* Espaçar itens horizontalmente */
+}
+
+#logo img {
+    max-width: 100%; /* Garantir que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Manter a proporção da imagem */
+}
+
+nav {
+    display: flex; /* Usar flexbox para o menu de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover preenchimento padrão */
+    margin: 0; /* Remover margem padrão */
+    display: flex; /* Exibir itens da lista em linha */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: white; /* Cor do texto dos links */
+    font-weight: bold; /* Negrito para os links */
+    transition: color 0.3s; /* Transição suave para a cor do link */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cor do link ao passar o mouse */
+}
+
+#saudação {
+    color: white; /* Cor do texto da saudação */
+    text-align: center; /* Centralizar texto */
+}

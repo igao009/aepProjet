@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Verde claro */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Verde principal */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 1rem;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container .logo {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 150px;
+}
+
+.login-container h2 {
+    color: #4CAF50; /* Verde principal */
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #4CAF50; /* Verde principal */
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #388E3C; /* Verde mais escuro */
+}
+
+.login-container p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.login-container a {
+    color: #4CAF50; /* Verde principal */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    color: #388E3C; /* Verde mais escuro */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4CAF50; /* Verde principal */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
